@@ -1,0 +1,20 @@
+My very own personal and basic setup for my VIM environment.
+
+Now includes pathogen so that the installation of new plugins should be easier.
+
+References:
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/
+http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
+http://www.akitaonrails.com/2009/01/04/rails-on-vim-in-english
+
+Plugins:
+http://github.com/scrooloose/nerdtree
+http://github.com/tpope/vim-rails
+http://www.vim.org/scripts/script.php?script_id=2004
+
+Installation
+git clone {repository} ~/.vim
+ln -s ~/.vim/vimrc .vimrc
+git submodule init
+git submodule update
