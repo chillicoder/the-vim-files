@@ -1,6 +1,3 @@
-[submodule "bundle/ColorSchemeMenuMaker"]
-	path = bundle/ColorSchemeMenuMaker
-	url = git://github.com/vim-scripts/ColorSchemeMenuMaker.git
 [submodule "bundle/colorschemes"]
 	path = bundle/colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
