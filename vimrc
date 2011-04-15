@@ -38,3 +38,5 @@ set expandtab
 
 set bg=dark
 set backspace=2
+
+colorscheme vividchalk
