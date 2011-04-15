@@ -60,5 +60,4 @@ else
   set background=dark
 endif
 
-
-
+nmap <silent> <Leader>p :NERDTreeToggle<CR>
