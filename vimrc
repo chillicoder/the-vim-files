@@ -53,9 +53,7 @@ set guifont=DejaVu\ Sans\ Mono\ 12
 set guitablabel=%M%t
 if has("gui_running")
   " tell the term has 256 colors
-  set t_Co=256
   set background=light
-  set columns=110
   colorscheme molokai
 else
   set t_Co=256
