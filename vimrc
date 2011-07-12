@@ -53,14 +53,14 @@ set guifont=DejaVu\ Sans\ Mono\ 12
 set guitablabel=%M%t
 if has("gui_running")
   " tell the term has 256 colors
-  colorscheme molokai
-  set background=dark
   set t_Co=256
-  set lines=40 " ?
+  set background=light
   set columns=110
-else
-  set background=dark
   colorscheme molokai
+else
+  set t_Co=256
+  set background=dark
+  colorscheme desert256
 endif
 
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
