@@ -49,7 +49,7 @@ runtime! plugin/matchit.vim
 
 " GUI
 set guioptions-=T
-set guifont=DejaVu\ Sans\ Mono\ 12
+set guifont=Andale\ Mono:h16
 set guitablabel=%M%t
 colorscheme vividchalk
 if has("gui_running")
