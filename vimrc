@@ -51,15 +51,17 @@ runtime! plugin/matchit.vim
 set guioptions-=T
 set guifont=Andale\ Mono:h16
 set guitablabel=%M%t
-colorscheme vividchalk
 if has("gui_running")
   " tell the term has 256 colors
-  set background=dark
-  set t_Co=256
   set lines=40 " ?
   set columns=110
+  set t_Co=256
+  set background=light
+  colorscheme desert
 else
+  set t_Co=256
   set background=dark
+  colorscheme desert256
 endif
 
 nmap <silent> <Leader>p :NERDTreeToggle<CR>
