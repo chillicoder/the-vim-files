@@ -51,7 +51,7 @@ runtime! plugin/matchit.vim
 set guioptions-=T
 set guifont=Andale\ Mono:h16
 set guitablabel=%M%t
-colorscheme candyman
+colorscheme darkbone
 if has("gui_running")
   " tell the term has 256 colors
   set lines=40 " ?
