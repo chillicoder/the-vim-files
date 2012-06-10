@@ -31,7 +31,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-set statusline=%<%f\ %{rails#statusline(1)}%h%m%r%=%-20.(line=%l,col=%c%V,totlin=%L%)\%h%m%r%=%-40(,%n%Y%)\%P
+set statusline=%<%f\ %h%m%r%=%-20.(line=%l,col=%c%V,totlin=%L%)\%h%m%r%=%-40(,%n%Y%)\%P
 
 "folding settings
 set foldmethod=indent   "fold based on indent
